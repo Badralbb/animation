@@ -17,7 +17,7 @@ body {
   background-color: black;
   width: 100px;
   height: 100px;
-  animation: slide 10s ease-in-out both;
+  animation: slide 10s ease-in-out forwards;
 }
 
 @keyframes slide {
@@ -34,6 +34,6 @@ body {
     transform: translateX(-600px);
   }
   100% {
-    transform: translate(0);
+    transform: translate(300px);
   }
 }
